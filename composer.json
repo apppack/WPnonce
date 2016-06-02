@@ -1,0 +1,19 @@
+{
+    "name": "christophwolff/wpnonce",
+    "description": "A simple OOP Class for using nonces in WordPress",
+    "type": "composer-wordpress-package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [{
+        "name": "Christoph Wolff",
+        "email": "cw@christophwolff.de"
+    }],
+    "autoload": {
+        "files": [
+            "WPnonce.php"
+        ]
+    },
+    "require-dev": {
+        "10up/wp_mock": "dev-master"
+    }
+}
