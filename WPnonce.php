@@ -10,7 +10,7 @@ namespace ChristophWolff\WPnonce;
 
 class WPnonce {
 
-    private $action;
+    protected $action;
 
     function __construct( $action ) {
         $this->action = ( $action == NUll ) ? 'nonce_action' : $action;
